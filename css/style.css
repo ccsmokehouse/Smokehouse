@@ -1,0 +1,995 @@
+@charset "UTF-8";
+/*------------------------------------*\
+	CONTENTS
+\*------------------------------------*/
+/*
+RESET
+SHARED
+CLEARFIX
+MAIN
+HEADER
+FOOTER
+LOGO
+NAV
+ISLAND
+TYPE
+BUTTON
+IMAGES
+FORMS
+TABLES
+RESPONSIVE
+MISC
+PRINT
+*/
+
+
+
+/*------------------------------------*\
+	$RESET
+\*------------------------------------*/
+/*
+A more considered reset; more of a restart...
+*/
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, 
+a, abbr, address, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strong, sub, sup, tt, var, 
+b, u, i, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, div, summary, 
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, div {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+strong, b, mark {
+	font-weight: bold;
+	font-style: inherit;
+}
+em, i, cite, q, address, dfn, var {
+	font-style: italic;
+	font-weight: inherit;
+}
+abbr[title], dfn[title] {
+	cursor: help;
+	border-bottom: 1px dotted;
+}
+ins {
+	border-bottom: 1px solid;
+}
+a, u, ins {
+	text-decoration: none;
+}
+del, s {
+	text-decoration: line-through;
+}
+pre, code, samp, kbd {
+	font-family: monospace;
+}
+small {
+	font-size: 0.75em;
+}
+img {
+	border: none;
+	font-style: italic;
+}
+input, 
+select, option, optgroup, 
+textarea {
+	font: inherit;
+}
+
+
+
+/*------------------------------------*\
+	$SHARED
+\*------------------------------------*/
+/* 
+Common margin-bottom for vertical rhythm: http://24ways.org/2006/compose-to-a-vertical-rhythm/
+*/
+h1, h2, h3, h4, h5, h6, 
+ul, ol, dl, 
+p, 
+table, 
+form, 
+pre, 
+hr, 
+.source {
+	color: #3876E7;
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+
+/* Default indentation value for lists etc. */
+ul, ol, dd {
+	margin-left: 1.5em;
+}
+
+label, 
+.text-input, 
+textarea, 
+.btn {
+	cursor: pointer;
+}
+.text-input:active, 
+.text-input:focus, 
+textarea:active, 
+textarea:focus {
+	cursor: text;
+}
+
+
+
+/*------------------------------------*\
+	$CLEARFIX
+\*------------------------------------*/
+/*
+Big up @nicolas: http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+.content:before, .content:after,
+nav:before, nav:after,
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+content:after,
+nav:after,
+.cf:after {
+	clear: both;
+}
+.content,
+nav,
+.cf {
+	zoom: 1;
+}
+
+
+
+/*------------------------------------*\
+	$MAIN
+\*------------------------------------*/
+html {
+	background: #3876e7;
+	font: 100%/1.5em Georgia, "Times New Roman", Times, serif;
+	max-width: 850px;
+	margin: 0 auto;
+	overflow-y: scroll; /* Force scrollbars 100% of the time */
+	/* padding: 0 1em; */
+}
+
+html > body {
+	font-size: 16px;
+}
+
+.content {
+	background: #000;
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0 24px;
+	padding: 0 1rem;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+	max-width: 81.25%;
+	padding: 0.3125em;
+	border-top: 0.125em solid #3876E7;
+	overflow: hidden;
+}
+
+.center ul {
+	margin: 1em 0 1em 2em;
+}
+
+.center img {
+	/* border: 2px solid #3876E7; */
+	float: left;
+  /* padding: 1em 1em 1em 0; */
+	margin: 1em 0.5em 1.5em 0;
+}
+
+.center form {
+	float: right;
+	padding: 1em 0 0 0;
+}
+
+.center form input[type="image"] {
+	float: right;
+}
+
+.surreal {
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+
+.surreal p {
+	margin-bottom: 0;
+}
+
+hr {
+	background-color: #3876E7;
+	border: none;
+	height: 2px;
+	margin-bottom: 1em;
+	padding: 0;
+}
+
+.top-border {
+	border-top: 0.125em solid #3876E7;
+}
+
+
+
+/*------------------------------------*\
+	$FOOTER
+\*------------------------------------*/
+footer {
+	background: #fff;
+	color: #333;
+	clear: both;
+	font-size: 1em;
+	margin: 0 0 1.5em 0;
+	padding: 0.625em;
+}
+
+	footer p {
+		color: #333;
+		margin-bottom: 0;
+	}
+	
+	footer a {
+		color: #3876E7;
+	}
+
+ 	footer > :last-child {
+		margin-bottom: 0;
+	}
+
+.facetwit {
+	float: right;
+}
+
+.facetwit a {
+	display: inline-block;
+}
+
+
+
+/*------------------------------------*\
+	$LOGO
+\*------------------------------------*/
+.logo {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	max-height: 300px;
+}
+
+
+
+/*------------------------------------*\
+	$NAV
+\*------------------------------------*/
+/* Create an abstraction, as per: csswizardry.com/2011/09/the-nav-abstraction/ */
+nav ul, /* Do not apply to NAV element. Cascade starts at UL. */
+.nav {	/* Apply to UL element */
+	list-style: none;
+	margin-left: 0;
+}
+	nav ul li, 
+	.nav li {
+		display: inline;
+	}
+	
+	nav ul li:first-child a, 
+	.nav li:first-child a {
+		margin-left: 0;
+	}
+	
+	nav ul a, 
+	.nav a {
+		display: inline-block;
+		margin-left: 0;
+	}
+
+/*--- SITE-NAV ---*/
+nav {
+	background: #3876E7;
+	border-top: 0.625em solid #003399;
+}
+
+	nav ul {
+		margin-bottom: 0;
+	}
+
+	nav li {
+		font-size: 1em;
+		line-height: 2.5em;
+	}
+
+	nav ul a {
+		background: #3876E7;
+		color: #fff; 
+		padding: 0 0.625em;
+		text-decoration: none;
+	}
+
+	nav ul a:hover, nav ul a.active, ul nav a:focus {
+		background-color: #003399;
+		color: #fff; 
+		text-decoration: none;
+	}
+		
+/*--- SUB-NAV ---*/
+.sub-nav {
+	list-style: none;
+	margin-left: 0;
+	/* border-bottom: 1px solid #F08E28; */
+	padding: 1em 0 0;
+}
+	.sub-nav li {
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+	.sub-nav a{
+			padding: 0 0 3px 0;
+			padding: 0 0 0.1875rem 0;
+	}
+	.sub-nav li:first-child a {
+		margin-left: 0;
+	}
+	.sub-nav a:hover, .sub-nav a.active, .sub-nav a:focus {
+		border-bottom: 4px solid #F08E28;
+		color: #F08E28;
+		text-decoration: none;
+	}
+
+		
+
+
+/*------------------------------------*\
+	$ISLAND
+\*------------------------------------*/
+/*
+The island object: csswizardry.com/2011/10/the-island-object/
+*/
+.island {
+	/* padding: 1em; */
+	background-color: #3876E7;
+	color: #fff;
+}
+	.island a {
+		color: #fff;
+	}
+	/* Remove margin from the last item in a box to avoid compounded padding+margin spacings. */
+	.island > :last-child {
+		margin-bottom: 0;
+	}
+
+
+
+/*------------------------------------*\
+	$TYPE
+\*------------------------------------*/
+/*--- HEADINGS ---*/
+h1, .alpha {
+	font-size: 28px;
+	font-size: 1.75rem;
+	font-weight: normal;
+	line-height: 1.166em;
+	margin:  18px 0 18px;
+	margin:  1.166rem 0 1.166rem;
+}
+h2, .beta {
+	border-top: 0.0833em solid #000;
+	font-size: 24px;
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0 0 24px;
+	margin: 0 0 1.5rem;
+	padding-top: 0.4166em;
+}
+h3, .gamma {
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: normal;
+	line-height: 1.2em;
+	margin: 12px 0 6px;
+	margin: 0.75rem 0 0.375rem;
+}
+h4, .delta {
+	color: #fff;
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+h5, .epsilon {
+	font-size: Xpx;
+	font-size: Xrem;
+	line-height: ;
+}
+h6, .zeta {
+	font-size: Xpx;
+	font-size: Xrem;
+	line-height: ;
+}
+p {
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0 0 1.5rem 0;
+}
+
+small > p {
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.5em;
+}
+
+
+/*--- LINKS ---*/
+a {
+	color: #F08E28;
+}
+
+a:hover {
+	color: #333;
+	border: none;
+	text-decoration: underline;
+}
+
+
+/*--- LISTS ---*/
+li > ul, 
+li > ol {
+	margin-bottom: 0;
+}
+
+dl {
+	width: 100%;
+	overflow: auto;
+	margin: 0 0 1em;
+}
+
+dt, dd.price {
+	font-size: 110%;
+	font-weight: normal;
+	color: #3876E7;
+}
+
+dt {
+	float: left;
+	padding: 0 3px;
+	padding: 0 0.1825rem;
+}
+
+dd {
+	margin:0;
+}
+
+dd.price {
+	float: right;
+	padding-left: 3px;
+	padding-left: 0.1825rem;
+}
+
+dd.desc {
+	float: left;
+	width: 80%;
+	padding: 1px 3px;
+	padding: 0.0625rem 0.1825rem;
+	font-style: italic;
+	color: #fff;
+}
+
+/*--- QUOTES ---*/
+/*
+Big up @boblet: http://html5doctor.com/blockquote-q-cite/
+*/
+q { quotes: "‘" "’" "“" "”"; }
+
+q:before { content: "‘"; content: open-quote; }
+q:after { content: "’"; content: close-quote; }
+
+q q:before { content:  "“"; content:  open-quote; }
+q q:after { content:  "”"; content:  close-quote; }
+
+blockquote { quotes:  "“" "”"; }
+blockquote p:before { content:  "“"; content:  open-quote; }
+blockquote p:after { content:  ""; content:  no-close-quote; }
+blockquote p: last-of-type:after { content:  "”"; content:  close-quote; }
+
+blockquote {
+	text-indent: -0.4em;
+}
+.source {
+	display: block;
+	text-indent: 0;
+	margin-top: -Xpx;
+	margin-top: -Xrem;
+}
+.source:before {
+	content: "—";
+}
+
+
+
+/*------------------------------------*\
+	$BUTTON
+\*------------------------------------*/
+.button {
+	float: right;
+	font-size: 1.5em;
+	list-style: none;
+	/* margin: 0.375em 0 0 0.625em; */
+	margin: 0 0.625em;
+}
+
+.button a {
+	background: rgba(255,153,0,1);
+	border: 0.1875em solid #D6D7D8;
+	color: rgba(51,51,51,1);
+	display: block;
+	padding: 0.3125em 0.625em;
+	line-height: 1.2em;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 0.75em;
+	-webkit-border-radius: 0.75em;
+	border-radius: 0.75em;
+	-moz-box-shadow: 0.0625em 0.0625em 0.1875em rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0.0625em 0.0625em 0.1875em rgba(0,0,0,0.3);
+	box-shadow: 0.0625em 0.0625em 0.1875em rgba(0,0,0,0.3);
+	text-shadow: 0.0625em 0.0625em 0.0625em rgba(0,0,0,0.2);
+}
+
+.button a:hover, .button a:active, .button a:focus {
+	background: rgba(51,51,51,0.5);
+	border: 0.1875em solid rgba(255,153,0,1);
+	/*color: rgba(255,153,0,1);*/
+	color: rgba(51,51,51,1);
+}
+
+
+
+/*------------------------------------*\
+	$IMAGES
+\*------------------------------------*/
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+img.left	 { float: left;  margin: 0.375em 0.375em 0 0; }
+img.right	 { float: right; margin: 0.375em 0 0 0.375em; }
+img.center { float: left;  margin: 0.375em 0.375em 0 0; }
+
+/*--- FLASH/VIDEO ---*/
+object,
+embed,
+video {
+	max-width: 100%; !important
+	height: auto; !important
+}
+
+.video {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+
+/*------------------------------------*\
+	$FORMS
+\*------------------------------------*/
+
+form {
+	margin: 0;
+	color: #222;
+}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/* 
+ * 1. Correct color not inheriting in IE6/7/8/9 
+ * 2. Correct alignment displayed oddly in IE6/7 
+ */
+legend {
+	border: 0;
+  margin-left: 0.4375em;
+	padding: 0;
+}
+/* Indicate that 'label' will shift focus to the associated form element */
+label {
+	cursor: pointer;
+}
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	font-family: sans-serif;
+	color: #222;
+}
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 2. Correct inner spacing displayed oddly in IE6/7
+ */
+button, input {
+	line-height: normal;
+	overflow: visible;
+}
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+/*
+ * Consistent box sizing and appearance
+ */
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+}
+input[type="search"] {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+/* 
+ * Remove inner padding and border in FF3/4
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ 
+ */
+button: : -moz-focus-inner, input: : -moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+/* Remove default vertical scrollbar in IE6/7/8/9 */
+textarea {
+	overflow: auto;
+	vertical-align: top;
+	color: #222;
+}
+/* Colors for form validity */
+input: valid, textarea: valid {
+}
+input: invalid, textarea: invalid {
+background-color: #f0dddd;
+}
+
+/*--- PRIMARY STYLES ---*/
+#contact-form {
+	width: 22.8125em;
+	padding: 0.3125em 1.25em;
+	margin: 0px auto;
+	position: relative;
+}
+#contact-form input, #contact-form select, #contact-form textarea, #contact-form label {
+	font-size: 0.9375em;
+	margin-bottom: 0.125em;
+}
+#contact-form input, #contact-form select, #contact-form textarea {
+	width: 21.875em;
+	border: 0.0625em solid #CCFFFF;
+	margin-bottom: 1.25em;
+	padding: 0.25em;
+}
+#contact-form input:focus, #contact-form select:focus, #contact-form textarea:focus {
+	border: 0.0625em solid #3876E7;
+	background-color: #CCCCCC;
+}
+#contact-form textarea {
+	height: 9.375em;
+	resize: none;
+}
+#contact-form label {
+	display: block;
+	color: #FFFFFF;
+}
+#contact-form .required {
+	font-weight: bold;
+	color: #F00;
+}
+#contact-form #submit-button {
+	width: 5.3125em;
+	background-color: #333;
+	color: #FFF;
+	border: none;
+	display: block;
+	float: right;
+	margin-bottom: 0em;
+	margin-right: 0.3125em;
+	background-color: #3876E7;
+	-moz-border-radius: 0.5em;
+}
+#contact-form #submit-button:hover {
+	background-color: #003399;
+}
+#contact-form #submit-button:active {
+	position: relative;
+	top: 0.0625em;
+}
+#contact-form #loading {
+	width: 2em;
+	height: 2em;
+	background-image: url(../img/loading.gif);
+	display: block;
+	position: absolute;
+	right: 8.125em;
+	bottom: 1em;
+	display: none;
+}
+#req-field-desc {
+	font-style: italic;
+	color: #FFFFFF;
+}
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+ -moz-box-shadow: none;
+ -webkit-box-shadow: none;
+ -o-box-shadow: none;
+ box-shadow: none;
+}
+/* Normalize placeholder styles */
+/* chrome, safari */
+::-webkit-input-placeholder {
+ color: #999;
+ font-style: italic;
+}
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+ color: #999;
+ font-style: italic;
+}
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text {
+	color: #999;
+	font-style: italic;
+}
+
+
+
+/*------------------------------------*\
+	$TABLES
+\*------------------------------------*/
+table {
+	width: 100%;
+}
+
+td {
+	color: #fff;
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+
+
+/*------------------------------------*\
+	$RESPONSIVE
+\*------------------------------------*/
+/* Let's go big! */
+
+html {
+	/* background: #3876E7; */
+	/* max-width: none; */
+	/* padding: 0; */
+}
+
+/*--- GRIDS ---*/
+/* Created with csswizardry.com/fluid-grids/ */
+.grids {
+	width: auto;
+	max-width: 960px;
+	clear: both;
+	margin: 0 0 0 -2.083%;
+	list-style: none; /* So we can make grids out of lists. */
+	overflow: hidden; /* Clear the floats */
+}
+
+[class^="grid-"] {
+	float: left;
+	margin: 0 2.083% 0 0;
+}
+
+.grids [class^="grid-"] {
+	margin: 0 0 0 2.083%;
+}
+
+.grid-1  { width: 6.25% }
+.grid-2  { width: 14.583% }
+.grid-3  { width: 22.917% }
+.grid-4  { width: 31.25% }
+.grid-5  { width: 39.583% }
+.grid-6  { width: 47.917% }
+.grid-7  { width: 56.25% }
+.grid-8  { width: 64.583% }
+.grid-9  { width: 72.917% }
+.grid-10 { width: 81.25% }
+.grid-11 { width: 89.583% }
+.grid-12 { width: 97.917% }
+
+/*--- MEDIA BLOCK ---*/
+/*
+Based on @stubbornella’s media object: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
+<a class="media promo">
+	<img src=product.jpg alt="" class=img>
+	<p class=body>Get Product for half price!</p>
+</a>
+*/
+.media {
+	display: block;
+}
+	.media .img {
+		float: left;
+		margin-right: 1.5em;
+	}
+	
+	.media .body {
+		overflow: hidden;
+		margin-bottom: 0;
+	}
+
+/*--- MISC ---*/
+.desktop-accessibility	{ 
+	position:absolute; left:-99999px; 
+}
+
+@media screen and (max-width: 480px) {
+
+.center img {
+	float: none;
+}
+
+.center form {
+	float: none;
+}
+
+.center form input[type="image"] {
+	float: none;
+}
+
+[class^="grid-"] {
+	float: none;
+	margin: 0 auto;
+	width: auto;
+}
+
+.button {
+	float: none;
+	margin: 24px auto;
+	margin: 1.5rem auto;
+}
+
+.facetwit {
+	float: none;
+}
+
+}
+
+
+
+/*------------------------------------*\
+	$MISC
+\*------------------------------------*/
+.accessibility { position: absolute; left: -99999px; }
+.cart { display: block; }
+.hide { display: none; }
+.fakepic {
+	border: 0.125em solid #e7e9d1;
+	clear: both;
+	height: 141px;
+	width: 188px;
+	margin: 1em 0.5em 1.5em 0;
+	padding: 0.0625em;
+	float: left;
+}
+
+
+
+/*------------------------------------*\
+	$PRINT
+\*------------------------------------*/
+/* Good ol’ fashioned paper... */
+@media print {
+	/*------------------------------------*\
+		MAIN
+	\*------------------------------------*/
+	/* Give everything some decent contrast. */
+	* {
+		background-color: #fff;
+		color: #000;
+		text-shadow: none !important;
+	}
+	/* Set a nice measure and take the font down to print-acceptable sizes. */
+	body {
+		font-size: 0.75em; /* 12px (if base font-size was 16px) */
+	}
+	.wrapper {
+		width: 75%;
+		margin: 0 auto;
+	}
+	/* A list of things you don’t want printing. Add to/subtract from as necessary. */
+	nav, .nav, 
+	footer, .footer {
+		display: none;
+	}
+	.logo img {
+		position: static;
+	}
+	/* Linearise */
+	.grids {
+		width: auto;
+	}
+	[class^="grid-"] {
+		width: auto;
+		float: none;
+		clear: both;
+	}
+	/* Don’t let images break anything. */
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	/* Messages look odd with just borders. */
+	.message {
+		border: none;
+		font-weight: bold;
+	}
+	/* Display the href of any links. */
+	a:link:after, a:visited:after {
+		content: " (" attr(href) ")";
+		font-size: smaller;
+	}
+	/* Any links that are root relative to your site need prepending with your URL. */
+	a[href^="/"]:after {
+		content: " (http: //yoururlhere.com" attr(href) ")";
+		font-size: smaller;
+	}
+	/* Any Flash/video content can’t be printed so leave a message. */
+	object:after {
+		content: "Flash/video content. Head to http://yoururlhere.com/ to view this content.";
+		display: block;
+		font-weight: bold;
+		margin-bottom: 1.5em;
+	}
+}

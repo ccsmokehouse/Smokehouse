@@ -1,0 +1,651 @@
+@charset "utf-8";
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, div, footer, aside, nav, article, figure {
+	display: block;
+}
+
+html {
+	overflow-y: scroll; /* Force scrollbars 100% of the time */
+}
+
+body {
+	background: #3876E7;
+	color: #FFF;
+	font: 100%/1.375em Georgia, "Times New Roman", Times, serif;
+	padding: 0;
+	margin: 0;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {	/* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+/* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+	margin-top: 0em; 
+	padding-right: 0.9375em;
+	padding-left: 0.9375em;
+	font-weight: normal;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	/* [disabled]color: #003399;
+*/
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	/* [disabled]color: #6E6C64;
+*/
+	/* [disabled]text-decoration: none;
+*/
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	/* [disabled]text-decoration: none;
+*/
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	background: #000;
+	/* [disabled]border: 0.1875em solid #FCFAE6;
+*/
+	margin: 0em auto;
+	width: 53.125em;
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header  {
+	background: #3876E7;
+	max-width: 100%;
+}
+
+/*--- NAVIGATION ---*/
+nav {
+	background: #3876E7;
+	border-top: 0.625em solid #003399;
+	color: #fff;
+	height: 2.5em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline; 
+	/* float: left; */
+	font-size: 1em;
+	line-height: 2.5em;
+}
+
+nav ul a {
+	color: #fff; 
+	padding: 0.75em 0.625em 0.5em 0.625em;
+	text-decoration: none;
+}
+
+nav ul a:hover, nav ul a.active, nav ul a:focus {
+	background-color: #003399;
+	color: #fff; 
+	text-decoration: none;
+}
+
+/* Contains the main page content. When using a mutliple column layout the margins will be set to account for the floated columns' width, margins, and padding. */
+.content {
+	padding: 0.625em;
+	overflow: hidden;
+}
+.content h1 {
+	color: #3876E7;
+	padding: 0.625em 0;
+	margin-bottom: 0;
+	font-size: 1.7em;
+	font-weight: normal;
+}
+.content h2 {
+	color: #3876E7;
+	font-size: 1.5em;
+	font-weight: normal;
+	padding: 0.625em 0;
+	margin-bottom: 0;
+}
+.content h3 {
+	color: #3876E7;
+	font-size: 1.3em;
+	font-weight: normal;
+	padding: 0;
+	margin-bottom: 0;
+}
+.content p {
+	padding: 0 0.1875em 0;
+	margin-top: 0;
+}
+.content img {
+	padding: 0.0625em;
+	/* [disabled]border: 0.125em solid #e7e9d1;
+*/
+	background: #fcfae6;
+	float: right;
+	margin: 0.3125em;
+}
+.center {
+	display: block;
+	margin: 0.625em auto 0;
+	text-align:left;
+	padding: 0.3125em;
+	width: 43.75em;
+	border-top: 0.125em solid #3876E7;
+	overflow: hidden;
+}
+.center img {
+	float: left;
+}
+.center a {
+	color: #3876E7;
+}
+.center p {
+	margin: 0;
+}
+.left {
+	text-align:left;
+	float:left;
+	padding: 0.3125em;
+	width: 25em;
+}
+.left h1 {
+	color: #3876E7;
+	padding: 0.625em 0;
+	margin-bottom: 0;
+	border-top: 0.125em solid #3876E7;
+}
+.left a {
+	color: #3876E7;
+}
+.right {
+	text-align:left;
+	float:right;
+	padding: 0.3125em;
+	width: 25em;
+}
+.right h1 {
+	color: #3876E7;
+	padding: 0.625em 0;
+	margin-bottom: 0;
+	border-top: 0.125em solid #3876E7;
+}
+.right a {
+	font-weight: normal;
+	color: #3876E7;
+	text-decoration: none;
+}
+.menu {
+	text-align:left;
+	width: 25em;
+	float: left;
+	height: 100%;
+	padding: 0.3125em;
+}
+.menu h1 {
+	margin-bottom: 0.625em;
+}
+.menu h3 {
+	padding: 0 0.1875em 0 0;
+	float: left;
+	clear: both;
+}
+.menu h4 {
+	color: #3876E7;
+	font-size: 1.1em;
+	font-weight: normal;
+	padding: 0 0 0 0.1875em;
+	margin-bottom: 0;
+	float: right;
+}
+.menu p {
+	width: 85%;
+	padding: 0;
+	clear: both;
+}
+.menu a {
+	font-size: 1em;
+	color: #3876E7;
+	text-decoration: none;
+}
+.menu ul a:hover {
+	color: #3876E7;
+	border-bottom: 0.25em solid #3876E7;
+}
+.menu p a:hover, .menu p a.active, .menu p a:focus {
+	border-bottom: 0.0625em solid #3876E7;
+}
+.menu ul {
+	border-bottom: 0.0625em solid #003399;
+	padding: 0.625em 0 1.25em 0;
+}
+.menu li {
+	float: left;
+	display: inline;
+	margin: 0 0.75em 0.625em 0.75em;
+}
+.menu a:hover, .menu a.active, .menu a:focus {
+	/* [disabled]color: #fff;
+*/
+	border-bottom: 0.25em solid #3876E7;
+	color: #3876E7;
+}
+.button ul {
+	float: right;
+	font-size: 1.5em;
+	list-style: none;
+	/*margin: 0.375em 0 0 0.625em;*/
+	margin: 0 0 0 0.625em;
+	overflow: hidden;
+}
+
+.button ul a {
+	background: rgba(255,153,0,1);
+	border: 0.1875em solid #D6D7D8;
+	color: rgba(51,51,51,1);
+	display: block;
+	padding: 0.3125em 0.625em;
+	line-height: 1.2em;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 0.75em;
+	-webkit-border-radius: 0.75em;
+	border-radius: 0.75em;
+	-moz-box-shadow: 0.0625em 0.0625em 0.1875em rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0.0625em 0.0625em 0.1875em rgba(0,0,0,0.3);
+	box-shadow: 0.0625em 0.0625em 0.1875em rgba(0,0,0,0.3);
+	text-shadow: 0.0625em 0.0625em 0.0625em rgba(0,0,0,0.2);
+}
+
+.button ul a:hover, .button ul a:active, .button ul a:focus {
+	background: rgba(51,51,51,0.5);
+	border: 0.1875em solid rgba(255,153,0,1);
+	/*color: rgba(255,153,0,1);*/
+	color: rgba(51,51,51,1);
+}
+
+.surreal ul {
+	padding: 0.625em;
+	margin-left: 1.25em;
+}
+
+/*------------------------------------*\
+	$FORMS
+\*------------------------------------*/
+form {
+	margin: 0;
+	color: #222;
+}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/* 
+ * 1. Correct color not inheriting in IE6/7/8/9 
+ * 2. Correct alignment displayed oddly in IE6/7 
+ */
+legend {
+	border: 0;
+  margin-left: 0.4375em;
+	padding: 0;
+}
+/* Indicate that 'label' will shift focus to the associated form element */
+label {
+	cursor: pointer;
+}
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	font-family: sans-serif;
+	color: #222;
+}
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 2. Correct inner spacing displayed oddly in IE6/7
+ */
+button, input {
+	line-height: normal;
+	overflow: visible;
+}
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+/*
+ * Consistent box sizing and appearance
+ */
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+}
+input[type="search"] {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+/* 
+ * Remove inner padding and border in FF3/4
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ 
+ */
+button: : -moz-focus-inner, input: : -moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+/* Remove default vertical scrollbar in IE6/7/8/9 */
+textarea {
+	overflow: auto;
+	vertical-align: top;
+	color: #222;
+}
+/* Colors for form validity */
+input: valid, textarea: valid {
+}
+input: invalid, textarea: invalid {
+background-color: #f0dddd;
+}
+
+/*--- PRIMARY STYLES ---*/
+#contact-form {
+	width: 22.8125em;
+	padding: 0.3125em 1.25em;
+	margin: 0px auto;
+	position: relative;
+}
+#contact-form input, #contact-form select, #contact-form textarea, #contact-form label {
+	font-size: 0.9375em;
+	margin-bottom: 0.125em;
+}
+#contact-form input, #contact-form select, #contact-form textarea {
+	width: 21.875em;
+	border: 0.0625em solid #CCFFFF;
+	margin-bottom: 1.25em;
+	padding: 0.25em;
+}
+#contact-form input:focus, #contact-form select:focus, #contact-form textarea:focus {
+	border: 0.0625em solid #3876E7;
+	background-color: #CCCCCC;
+}
+#contact-form textarea {
+	height: 9.375em;
+	resize: none;
+}
+#contact-form label {
+	display: block;
+	color: #FFFFFF;
+}
+#contact-form .required {
+	font-weight: bold;
+	color: #F00;
+}
+#contact-form #submit-button {
+	width: 5.3125em;
+	background-color: #333;
+	color: #FFF;
+	border: none;
+	display: block;
+	float: right;
+	margin-bottom: 0em;
+	margin-right: 0.3125em;
+	background-color: #3876E7;
+	-moz-border-radius: 0.5em;
+}
+#contact-form #submit-button:hover {
+	background-color: #003399;
+}
+#contact-form #submit-button:active {
+	position: relative;
+	top: 0.0625em;
+}
+#contact-form #loading {
+	width: 2em;
+	height: 2em;
+	background-image: url(../img/loading.gif);
+	display: block;
+	position: absolute;
+	right: 8.125em;
+	bottom: 1em;
+	display: none;
+}
+#req-field-desc {
+	font-style: italic;
+	color: #FFFFFF;
+}
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+ -moz-box-shadow: none;
+ -webkit-box-shadow: none;
+ -o-box-shadow: none;
+ box-shadow: none;
+}
+/* Normalize placeholder styles */
+/* chrome, safari */
+::-webkit-input-placeholder {
+ color: #999;
+ font-style: italic;
+}
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+ color: #999;
+ font-style: italic;
+}
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text {
+	color: #999;
+	font-style: italic;
+}
+
+/*------------------------------------*\
+	$FOOTER
+\*------------------------------------*/
+footer {
+	background: #fff;
+	/* [disabled]border-top: 1px solid #3876E7; */
+	color: #333;
+	clear: both;
+	font-size: 1em;
+	margin: 0 0 2em 0;
+	padding: 0.625em 0.625em 0.0625em;
+}
+
+footer a, footer p {
+	color: #333;
+	/* [disabled]padding: 0.625em; */
+}
+
+footer a:hover {
+	color: #3876E7;
+	border: none;
+	text-decoration: underline;
+}
+.noborder h1 {
+	border-style: none;
+}
+.fltrt {
+	float: right;
+	margin-left: 1.25em;
+	margin-top: 1.25em;
+	margin-bottom: 0.625em;
+}
+.fltlft {
+	float: left;
+	margin-right: 1.25em;
+	margin-top: 1.25em;
+	margin-bottom: 0.625em;
+}
+.clrflt {
+	clear: both;
+}
+.cart {
+	display: block; /* block for on, none for off */
+}
+.fakepic {
+	border: 0.125em solid #e7e9d1;
+	clear: both;
+	height: 8.5625em;
+	width: 11.5em;
+	margin: 0.3125em;
+	padding: 0.0625em;
+	float: left;
+}
+.facetwit {
+	float: right;
+}
+
+/* =============================================================================
+   Non-semantic helper classes
+   Please define your styles before this div.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 0.0625em; margin: -0.0625em; overflow: hidden; padding: 0; position: absolute; width: 0.0625em; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* =============================================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+
+}
+
+/* =============================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+/*@media print {
+  * { 
+		background: transparent !important; 
+		color: black !important; 
+		text-shadow: none !important; 
+		filter: none !important; 
+		-ms-filter: none !important; 
+	} 
+	a, a:visited { 
+		color: #444 !important; 
+		text-decoration: underline; 
+	}
+	a[href]:after { 
+		content: " (" attr(href) ")"; 
+	}
+	abbr[title]:after { 
+		content: " (" attr(title) ")"; 
+	}
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+		content: ""; 
+	} 
+	pre, blockquote { 
+		border: 0.0625em solid #999; page-break-inside: avoid; 
+	}
+	thead { 
+		display: table-header-group; 
+	} 
+	tr, img { 
+		page-break-inside: avoid; 
+	}
+	img { 
+		max-width: 100% !important; 
+	}
+	@page { 
+		margin: 0.5cm; 
+	}
+	p, h2, h3 { 
+		orphans: 3; widows: 3; 
+	}
+	h2, h3 { 
+		page-break-after: avoid; 
+	}
+}
+*/
+
+@media print {
+	*, .content h1, .content h2, .content h3, .content h4 {
+		background-color: #fff;
+		border-style: none;
+		color: #000;
+		text-shadow: none !important;
+	}
+	body {
+   background: white;
+	 font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 0.8em;
+  }
+	header  {
+		height: auto;
+	}
+	header h1, header h2 {
+		position: relative;
+		text-align: center;
+		top: 0;
+	}
+	nav,
+	footer {
+		 display: none;
+	}
+	.container {
+		width: 90%;
+		margin: 1em auto;
+	}
+	.center, .left, .right, .menu {
+		 width: auto;
+		 float: none !important;
+		 clear: both;
+		 border-top: 0.125em solid #000;
+	}
+	img {
+		max-width: 100% !important;
+		height: auto;
+		page-break-inside: avoid; 
+	}
+	a:link:after, a:visited:after {
+		content: " (" attr(href) ")";
+		font-size: smaller;
+	}
+	a[href^="/"]:after{
+		content:" (http://www.davescapecodsmokehouse.com" attr(href) ")";
+		font-size: smaller;
+	}
+}
