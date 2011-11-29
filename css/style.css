@@ -978,9 +978,7 @@ Based on @stubbornella’s media object: www.stubbornella.org/content/2010/06/25
 	$MISC
 \*------------------------------------*/
 .accessibility { position: absolute; left: -99999px; }
-.cart {
-	display: none;
-}
+.cart {	display: block; /* none for off, block for on */ }
 .hide { display: none; }
 .fakepic {
 	border: 0.125em solid #e7e9d1;
