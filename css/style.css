@@ -125,11 +125,18 @@ textarea,
 .btn {
 	cursor: pointer;
 }
+
 .text-input:active, 
 .text-input:focus, 
 textarea:active, 
 textarea:focus {
 	cursor: text;
+}
+
+.island.promo,
+pre,
+code {
+	background-color:#fff;
 }
 
 
@@ -359,28 +366,48 @@ nav {
 		color: #F08E28;
 		text-decoration: none;
 	}
-
 		
 
 
 /*------------------------------------*\
 	$ISLAND
 \*------------------------------------*/
-/*
-The island object: csswizardry.com/2011/10/the-island-object/
-*/
-.island {
-	/* padding: 1em; */
-	background-color: #3876E7;
-	color: #fff;
+.island.promo {
+	border: 2px solid #3876E7;
+	padding: 8px;
+	padding: 0.5em;
+	margin-top: 24px;
+	margin-top: 1.5rem;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
 }
-	.island a {
-		color: #fff;
+	.island.promo a {
+		color: inherit;
+		font-weight: bold;
+		text-decoration: underline;
 	}
-	/* Remove margin from the last item in a box to avoid compounded padding+margin spacings. */
-	.island > :last-child {
-		margin-bottom: 0;
-	}
+
+span > a > img {
+	margin: 0;
+}
+span > h2 {
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+	padding-top: 0;
+}
+h2 > em {
+	color: #BF1E2E	;
+	font-style: normal;
+}
+span > p {
+	color: #000;
+	margin-bottom: 0;
+	max-width: 60%
+}
 
 
 
@@ -397,7 +424,7 @@ h1, .alpha {
 	margin:  1.166rem 0 1.166rem;
 }
 h2, .beta {
-	border-top: 0.0833em solid #000;
+	/*border-top: 0.0833em solid #000;*/
 	font-size: 24px;
 	font-size: 1.5rem;
 	font-weight: normal;
@@ -942,33 +969,33 @@ Based on @stubbornella’s media object: www.stubbornella.org/content/2010/06/25
 
 @media screen and (max-width: 480px) {
 
-.center img {
-	float: none;
-}
+	.center img {
+		float: none;
+	}
 
-.center form {
-	float: none;
-}
+	.center form {
+		float: none;
+	}
 
-.center form input[type="image"] {
-	float: none;
-}
+	.center form input[type="image"] {
+		float: none;
+	}
 
-[class^="grid-"] {
-	float: none;
-	margin: 0 auto;
-	width: auto;
-}
+	[class^="grid-"] {
+		float: none;
+		margin: 0 auto;
+		width: auto;
+	}
 
-.button {
-	float: none;
-	margin: 24px auto;
-	margin: 1.5rem auto;
-}
+	.button {
+		float: none;
+		margin: 24px auto;
+		margin: 1.5rem auto;
+	}
 
-.facetwit {
-	float: none;
-}
+	.facetwit {
+		float: none;
+	}
 
 }
 
