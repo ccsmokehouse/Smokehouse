@@ -5,13 +5,18 @@
 		"upload_on_save": false,
 		"confirm_sync": true,
 		
+		// "host": "kolnos.com",
+		// "user": "kolnos",
+		// "password": "walstib",
+		// "remote_path": "/capewizard/dave/",
+		//"port": "22",
+
 		"host": "davescapecodsmokehouse.com",
 		"user": "davereese",
 		"password": "Capecod1",
-		//"port": "22",
-		
 		"remote_path": "/",
-		"ignore_regex": "(sftp-settings\\.json|\\.svn|\\.hg|\\.git|\\.bzr|_darcs|CVS|\\.DS_Store|Thumbs\\.db|desktop\\.ini|assets|_notes)",
+		
+		"ignore_regex": "(sftp-settings\\.json|\\.svn|\\.hg|\\.git|\\.bzr|_darcs|CVS|\\.DS_Store|Thumbs\\.db|desktop\\.ini|assets|_notes|_db_backups|cgi|cms|stats)",
 		// "file_permissions": "664",
 		//"dir_permissions": "775",
 		
@@ -20,7 +25,7 @@
 		//"ssh_key_file": "~/.ssh/id_rsa",
 		//"sftp_flags": "-F /path/to/ssh_config",
 		
-		//"remote_time_offset_in_hours": 0,
+		"remote_time_offset_in_hours": 2,
 		"remote_encoding": "utf-8",
 		//"remote_locale": "C",
 }
