@@ -220,6 +220,11 @@ html > body {
 	float: right;
 }
 
+.googlecart-add-button {
+	margin-top: 1em;
+	float: right;
+}
+
 .editable {
 	margin-bottom: 24px;
 	margin-bottom: 1.5rem;
