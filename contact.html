@@ -45,30 +45,32 @@
 	<div class="content">
 	
 		<div class="grids">
-			<div id="contact-form" class="grid-6">
-						<h1>Contact Us</h1>
-						<p>Fill out our super swanky contact form below to get in touch with us! Please provide as much information as possible for us to assist you with your inquiry.</p>
-						<form method="post" action="webmailer.php">
-							<label for="name">Name: <span class="required">*</span></label>
-							<input type="text" id="name" name="name" value="" placeholder="John Doe" required autofocus />
-							<label for="email">Email Address: <span class="required">*</span></label>
-							<input type="email" id="email" name="email" value="" placeholder="john.doe@example.com" required />
-							<label for="telephone">Telephone: </label>
-							<input type="tel" id="telephone" name="telephone" value="" />
-							<label for="inquiry">Inquiry: </label>
-							<select id="inquiry" name="inquiry">
-								<option value="General">General</option>
-								<option value="Sales">Sales</option>
-								<option value="Wholesale">Wholesale</option>
-								<option value="Comment or Suggestion">Comment or Suggestion</option>
-							</select>
-							<label for="message">Message: <span class="required">*</span></label>
-							<textarea id="message" name="message" placeholder="Your message must be greater than 20 characters" required></textarea>
-							<span id="loading"></span>
-							<input type="submit" value="Submit" id="submit-button" />
-							<p id="req-field-desc"><span class="required">*</span> indicates required info</p>
-						</form>
-					</div>
+			<div class="grid-6">
+				<h1>Contact Us</h1>
+				<p>Fill out our super swanky contact form below to get in touch with us! Please provide as much information as possible for us to assist you with your inquiry.</p>
+				<div id="contact-form">
+					<form method="post" action="webmailer.php">
+						<label for="name">Name: <span class="required">*</span></label>
+						<input type="text" id="name" name="name" value="" placeholder="John Doe" required autofocus>
+						<label for="email">Email Address: <span class="required">*</span></label>
+						<input type="email" id="email" name="email" value="" placeholder="john.doe@example.com" required>
+						<label for="telephone">Telephone: </label>
+						<input type="tel" id="telephone" name="telephone" value="">
+						<label for="inquiry">Inquiry: </label>
+						<select id="inquiry" name="inquiry">
+							<option value="General">General</option>
+							<option value="Sales">Sales</option>
+							<option value="Wholesale">Wholesale</option>
+							<option value="Comment or Suggestion">Comment or Suggestion</option>
+						</select>
+						<label for="message">Message: <span class="required">*</span></label>
+						<textarea id="message" name="message" placeholder="Your message must be greater than 20 characters" required></textarea>
+						<span id="loading"></span>
+						<input type="submit" value="Submit" id="submit-button">
+						<p id="req-field-desc"><span class="required">*</span> indicates required info</p>
+					</form>
+				</div>
+			</div>
 					
 			<div class="grid-6">
 				<h1>Location</h1>
