@@ -400,8 +400,9 @@ span > a > img {
 	margin: 0;
 }
 span > h2 {
-	margin-bottom: 16px;
-	margin-bottom: 1rem;
+	font-size: 2em;
+	/* margin-top: em; */
+	/* margin-bottom: em; */
 	padding-top: 0;
 }
 h2 > em, span > em {

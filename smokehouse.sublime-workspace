@@ -1,0 +1,633 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"page",
+				"page-break-before"
+			],
+			[
+				"page-break",
+				"page-break-before"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"smal",
+				"x-small"
+			],
+			[
+				"a",
+				"a	<a href=\"mailto:\">"
+			],
+			[
+				"padding",
+				"padding	padding-right: length"
+			],
+			[
+				"sm",
+				"smaller"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Short paragraph"
+			],
+			[
+				"list",
+				"list	list-style-type: roman-alpha-greek"
+			],
+			[
+				"th",
+				"th	<th>"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"right",
+				"right"
+			],
+			[
+				"float",
+				"float	float: left/right/none"
+			],
+			[
+				"link",
+				"link: link - stylesheet"
+			],
+			[
+				"html",
+				"html: html"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"we",
+				"Snippet: input - week"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"",
+				"Snippet: hello"
+			],
+			[
+				"string",
+				"Snippet: Wrap Selection in Open/Close Tag"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Daves/Websites/Smokehouse/img/PigRoast.png",
+		"/C/Users/Daves/Websites/Smokehouse/index.html",
+		"/C/Users/Daves/Websites/Smokehouse/css/style.css",
+		"/C/Users/Daves/Calibre Library/Jack Vance/Tales of the Dying Earth (142)/Tales of the Dying Earth - Jack Vance.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Order in Chaos (131)/Order in Chaos - Jack Whyte.txt",
+		"/C/Users/Daves/Calibre Library/Jack Vance/Tales of the Dying Earth (142)/epub.css",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_Tales of the Dying Earth - Jack Vance.htmlz.zip/style.css",
+		"/C/Users/Daves/Calibre Library/Jack Vance/Tales of the Dying Earth (142)/index.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/The Singing Sword (121)/The Singing Sword - Jack Whyte.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/The Singing Sword (121)/epub.css",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Order in Chaos (131)/Order in Chaos - Jack Whyte.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Standard of Honor (117)/Standard of Honor - Jack Whyte.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Order in Chaos (131)/epub.css",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/The Skystone (119)/The Skystone - Jack Whyte.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/The Skystone (119)/epub.css",
+		"/C/Users/Daves/Calibre Library/The Prometheus Deception/Robert Ludlum (141)/Robert Ludlum - The Prometheus Deception.txt",
+		"/C/Users/Daves/Documents/My eBooks/Robert Ludlum/Robert Ludlum - The Prometheus Deception.txt",
+		"/C/Users/Daves/Documents/My eBooks/Robert Ludlum/Robert Ludlum - The Apocalypse Watch.txt",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/Dying of the Light (140)/Dying of the Light - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/Dying of the Light (140)/epub.css",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/Dying of the Light (140)/Dying of the Light - George R. R. Martin.txt",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default (Windows).sublime-keymap",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/The Mystery Knight (139)/The Mystery Knight - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/The Mystery Knight (139)/epub.css",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/The Mystery Knight (139)/The Mystery Knight - George R. R. Martin.txt",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/The Mystery Knight (138)/The Mystery Knight - George R. R. Martin.txt",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/The Hedge Knight (127)/The Hedge Knight - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/The Hedge Knight (127)/epub.css",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/Sworn Sword (137)/Sworn Sword - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/Sworn Sword (137)/epub.css",
+		"/C/Users/Daves/Calibre Library/Mark Walden/Aftershock (136)/Aftershock - Mark Walden.html",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/CSS/epub.sublime-snippet",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/StringEncode/Default.sublime-keymap",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Daves/Websites/Smokehouse/bbq.html",
+		"/C/Users/Daves/Calibre Library/Mark Walden/Zero Hour (135)/Zero Hour - Mark Walden.html",
+		"/C/Users/Daves/Calibre Library/Mark Walden/Aftershock (136)/epub.css",
+		"/C/Users/Daves/Calibre Library/Mark Walden/Zero Hour (135)/epub.css",
+		"/C/Users/Daves/Calibre Library/Mark Walden/Escape Velocity (133)/Escape Velocity - Mark Walden.html",
+		"/C/Users/Daves/Calibre Library/Mark Walden/The Overlord Protocol (132)/The Overlord Protocol - Mark Walden.html",
+		"/C/Users/Daves/Calibre Library/Mark Walden/Escape Velocity (133)/epub.css",
+		"/C/Users/Daves/Calibre Library/Mark Walden/The Overlord Protocol (132)/epub.css",
+		"/C/Users/Daves/Calibre Library/Mark Walden/H.I.V.E._ Higher Institute of Villainous (129)/H.I.V.E._ Higher Institute of Villainous - Mark Walden.html",
+		"/C/Users/Daves/Calibre Library/Mark Walden/H.I.V.E._ Higher Institute of Villainous (129)/epub.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.56_tmp_wwogwx/ltdmdn_tweak_explode/H_I_V_E_Higher_Institute_of_Vil_split_002.html",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.56_tmp_wwogwx/ltdmdn_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.56_tmp_h_gakx/ysnopy_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.56_tmp_h_gakx/ysnopy_tweak_explode/Chasing_Midnight_split_037.html",
+		"/C/Users/Daves/Documents/HUMAN RESOURCES/Sean.txt",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/README.md",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/Default.sublime-commands",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_Chasing Midnight - Randy Wayne White.epub.zip/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.56_tmp_pdmabx/cmuj_y_tweak_explode/Chasing_Midnight_split_000.html",
+		"/C/Users/Daves/Calibre Library/Randy Wayne White/Chasing Midnight (130)/Chasing Midnight - Randy Wayne White.html",
+		"/C/Users/Daves/Documents/My eBooks/Jeffrey Archer/As the Crow Flies.txt",
+		"/C/Users/Daves/Documents/My eBooks/Jeffrey Archer/Twelve Red Herrings.txt",
+		"/C/Users/Daves/Calibre Library/Jim Butcher/Furies of Calderon (54)/epub.css",
+		"/C/Users/Daves/Calibre Library/Jim Butcher/Furies of Calderon (54)/Furies of Calderon - Jim Butcher.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Dance With Dragons (126)/A Dance With Dragons - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Dance With Dragons (126)/epub.css",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Feast For Crows (125)/A Feast For Crows - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Feast for Crows (125)/epub.css",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Feast for Crows (125)/A Feast For Crows - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Storm of Swords (124)/A Storm of Swords - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Storm of Swords (124)/epub.css",
+		"/C/Users/Daves/Websites/Smokehouse/fish.html",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_A Game Of Thrones - George RR Martin.epub.zip/OEBPS/content.opf",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Clash of Kings (123)/A Clash of Kings - George R. R. Martin.html",
+		"/C/Users/Daves/Websites/Projects/AABG/index.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Game of Thrones (105)/A Game of Thrones - George R. R. Martin.html",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Game of Thrones (105)/epub.css",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Clash of Kings (123)/epub.css",
+		"/C/Users/Daves/Websites/Smokehouse/sides.html",
+		"/C/Users/Daves/Websites/Smokehouse/sandwiches.html",
+		"/C/Users/Daves/Websites/Smokehouse/combos.html",
+		"/C/Users/Daves/Websites/Smokehouse/restaurant.html",
+		"/C/Users/Daves/Websites/Smokehouse/spreads.html",
+		"/C/Users/Daves/Websites/Smokehouse/sftp-settings.json",
+		"/C/Users/Daves/Websites/Smokehouse/doc/menu.pdf",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Clash of Kings (123)/A Clash of Kings - George R. R. Martin.txt",
+		"/C/Users/Daves/Calibre Library/George R. R. Martin/A Clash of Kings (123)/index.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Standard of Honor (117)/epub.css",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_The Singing Sword - Jack Whyte.zip/epub.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_zeg750/acurvr_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Knights of the Black and White (116)/epub.css",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Knights of the Black and White (116)/Knights of the Black and White - Jack Whyte.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/The Singing Sword (121)/The Singing Sword - Jack Whyte.txt",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/The Singing Sword (121)/index.html",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_The Singing Sword - Jack Whyte.zip/nq_yaq_files/stylesheet.css",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/The Skystone (119)/The Skystone - Jack Whyte.txt",
+		"/C/Users/Daves/Calibre Library/Jack Whyte - (ebook by Undead)/[Camulod 01] - The Skystone (119)/index.html",
+		"/C/Users/Daves/Calibre Library/Jack Whyte - (ebook by Undead)/[Camulod 01] - The Skystone (119)/style.css",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_[Camulod 01] - The Skystone - Jack Whyte - (ebook by Undead).zip/style.css",
+		"/C/Users/Daves/Calibre Library/Jack Whyte - (ebook by Undead)/[Camulod 01] - The Skystone (119)/[Camulod 01] - The Skystone - Jack Whyte - (ebook by Undead).txt",
+		"/C/Users/Daves/Calibre Library/Jack Whyte/Knights of the Black and White (116)/Knights of the Black and White - Jack Whyte.txt",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_c4gskc/lg4aqw_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_c4gskc/h6q3ii_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/5zrynf_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/ifnyki_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/Calibre Library/Bernard Cornwell/Excalibur (114)/epub.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/hxhh5l_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/iqwx8m_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/aondvs_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_DropCapV2-300.zip/DropCapV2-300.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/1xzkfm_tweak_explode/Excalibur - Bernard Cornwell_split_009.html",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/1xzkfm_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/AppData/Local/Temp/calibre_0.8.51_tmp_6eufzg/dp8mzs_tweak_explode/stylesheet.css",
+		"/C/Users/Daves/Calibre Library/Bernard Cornwell/Enemy of God (112)/epub.css",
+		"/C/Users/Daves/Calibre Library/Bernard Cornwell/Enemy of God (112)/style.css",
+		"/C/Users/Daves/Calibre Library/Steven Saylor/Rubicon (53)/epub.css",
+		"/C/Users/Daves/Calibre Library/Edward Rutherfurd/Sarum (115)/style.css",
+		"/C/Users/Daves/Calibre Library/Steve Berry/The Third Secret (102)/The Third Secret - Steve Berry.html",
+		"/C/Users/Daves/Calibre Library/Steve Berry/The Third Secret (102)/style.css",
+		"/C/Users/Daves/Calibre Library/Edward Rutherfurd/Sarum (115)/index.html",
+		"/C/Users/Daves/Calibre Library/Steven Saylor/Rubicon (53)/Rubicon - Steven Saylor.html",
+		"/C/Users/Daves/Calibre Library/Steven Saylor/Rubicon (53)/style.css",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/HTML/html5.sublime-snippet",
+		"/C/Users/Daves/Calibre Library/Bernard Cornwell/Excalibur (114)/Excalibur - Bernard Cornwell.html",
+		"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/CSS/fiction.sublime-snippet",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_epubtags.zip/OEBPS/Styles/template.css",
+		"/C/Users/Daves/AppData/Local/Temp/Temp1_demo.epub.zip/stylesheet.css",
+		"/C/Users/Daves/Calibre Library/Bernard Cornwell/Excalibur (114)/style.css",
+		"/C/Users/Daves/Calibre Library/Bernard Cornwell/Enemy of God (112)/Enemy of God - Bernard Cornwell.html",
+		"/C/Users/Daves/Calibre Library/XHTML-Characters.txt"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Daves\\Websites\\Smokehouse"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"BF1E2E",
+			"NOTHING",
+			"1 ",
+			"“1 ",
+			" \\. \\.\\. ",
+			"note-2",
+			"Footnotes",
+			"note-23",
+			"<a",
+			"id=",
+			"Footnotes",
+			"id=",
+			"#calibre_link-",
+			"<a class=\"calibre24\" ",
+			"Footnotes",
+			"id=",
+			"calibre_link-27",
+			"id=",
+			"calibre_link-33",
+			"Footnotes",
+			"<p class=\"center\"><b>",
+			"<p><b class=\"calibre5\">(.+?)</b></p>",
+			"<p class=\"p1\">(\\S+? )(\\S+? )(\\S+? )(\\S+? )(\\S+? )",
+			"<h3 class=\"chapter\">",
+			"<h2 class=\"chapter\">",
+			"<h3 class=\"chapter\">",
+			"<h2 class=\"chapter\">([0-9])\\.&nbsp;",
+			"<h3 class=\"chapter\">",
+			"<h2 class=\"chapter\">",
+			"Cugel's Saga",
+			"<h2 class=\"chapter\">([0-9])&nbsp;",
+			"<h4 class=\"chapter\">",
+			"’”",
+			"<h4 class=\"chapter\">",
+			"\"chapter\">Chapter",
+			" …",
+			"&nbsp;</p>\\n<p>",
+			"<p class=\"p1\">(\\S+? )(\\S+? )(\\S+? )(\\S+? )(\\S+? )",
+			"</h2>\\n<p>",
+			"</h3>\\n<p>",
+			"</h2>\\n<p>",
+			"\\. …",
+			"… \\.",
+			"“ ",
+			"^‘",
+			"^&nbsp;\\n",
+			"’ “",
+			"<p>&nbsp;</p>\\n",
+			"…\\.",
+			"” ‘",
+			"‘ ‘",
+			"Footnotes",
+			"<sup class=\"calibre25\">",
+			"#calibre_link-29",
+			"calibre_link-29",
+			"#calibre_link-21",
+			"#calibre_link-63",
+			"#calibre_link-33",
+			"<p><b class=\"calibre5\"><br></b></p>",
+			"<h3 class=\"calibre[0-9]+?\" id=\"calibre_link-[0-9]+?\">",
+			"<p><br></p>\\n",
+			"<p class=\"calibre4\"><br></p>\\n",
+			"<h2 class=\"calibre[0-9]+?\" id=\"calibre_link-[0-9]+?\">",
+			"</i>&nbsp;",
+			"&nbsp;<i>",
+			"<br class=\"calibre[0-9]+?\"></br>",
+			"<p>&nbsp;</p>\\n",
+			" &mdash;",
+			"&mdash; ",
+			" &mdash; ",
+			"<h4 id=\"calibre_link-[0-9]+?\" class=\"calibre[0-9]+?\">",
+			"<p><a id=\"calibre_link-[0-9]+?\" class=\"calibre[0-9]+?\">&nbsp;</a></p>\\n",
+			"<hr class=\"calibre[0-9]+?\"></hr>\\n",
+			"<h3 id=\"calibre_link-[0-9]+?\" class=\"calibre[0-9]+?\">",
+			"<h1 id=\"calibre_link-[0-9]+?\" class=\"calibre[0-9]+?\">",
+			" …”",
+			"<h2 id=\"calibre_link-[0-9]+?\" class=\"calibre[0-9]+?\">",
+			"<p class=\"calibre1\">",
+			"<br class=\"calibre2\"></br>\\n",
+			"<br class=\"calibre2\"></br>\\n(.+?)\\n<br class=\"calibre2\"></br>",
+			"<br class=\"calibre2\"></br>\\n(.+?)<br class=\"calibre2\"></br>",
+			"</div>\\n",
+			"<div .+?>\\n",
+			"”</i>",
+			"<i>“",
+			"<i class=\"calibre17\">(.+?)</i>",
+			"^$",
+			"	<p class=\"calibre1\"></p>",
+			"^$",
+			"^\\*\\*",
+			"\\n\\n\\n\\n",
+			"^\\*\\*([0-9])\\. \\*\\*",
+			"\\*\\*([0-9])\\. \\*\\*",
+			"The Caves of Roslin",
+			"</i> \\)",
+			"<p class=\"first\">(.)</p>(.+?)$",
+			"The Caves of Roslin",
+			"</i> \\?",
+			"</i> ,",
+			"  ",
+			"^([^<])(.+?)([^>])$",
+			"^$",
+			"The Woman in the Byre",
+			" </i>",
+			"\\*(.+?)\\*",
+			" </h3>",
+			"^### \\*\\*(.+?)\\*\\*",
+			"^## \\*\\*(.+?)\\*\\*",
+			"^\\*\\*",
+			"^\\*\\*(.)\\*\\*",
+			"^\\*\\*",
+			"^### \\*\\*(.+?)\\*\\*",
+			"^## \\*\\*(.+?)\\*\\*",
+			"THE ROAD",
+			"^## \\*\\*(.+?)\\*\\*",
+			"^# \\*\\*(.+?)\\*\\*",
+			"# \\*\\*(.+?)\\*\\*",
+			"([a-z])\\n",
+			"lÀrmentiÃ¨re",
+			" \\*\\n",
+			"oà",
+			"([A-Za-z,;\\.\"0-9])\\n([a-zA-Z])",
+			"([A-Za-z,;\"0-9])\\n([a-zA-Z])",
+			"([A-Za-z,;\"])\\n([a-zA-Z])",
+			"([A-Za-z,;])\\n([a-zA-Z])",
+			"([a-z,;])\\n([a-zA-Z])",
+			"</i><i>",
+			" , \\. \\."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"I ",
+			"“I ",
+			"… ",
+			"#note-",
+			"<a ",
+			"<p class=\"colophon\"><b>",
+			"<p class=\"center\"><b>\\1</b></p>",
+			"<p class=\"p1\">\\U\\1\\U\\2\\U\\3\\U\\4\\U\\5",
+			"<h2 class=\"chapter\">\\1. ",
+			"<h2 class=\"chapter\">\\1.&nbsp;",
+			"’&thinsp;”",
+			"…",
+			" ",
+			"<p class=\"p1\">\\U\\1\\U\\2\\U\\3\\U\\4\\U\\5",
+			"</h2>\\n<p class=\"p1\">",
+			"</h3>\\n<p class=\"p1\">",
+			"…",
+			"“",
+			"",
+			"’&thinsp;”",
+			"",
+			"…",
+			"“&thinsp;‘",
+			"<sup>",
+			"",
+			"<h3 class=\"chapter\">",
+			"",
+			"<h2 class=\"chapter\">",
+			"</i> ",
+			" <i>",
+			"<br>",
+			"",
+			"&mdash;",
+			"<h4 class=\"chapter\">",
+			"",
+			"<h3 class=\"chapter\">",
+			"<h1 class=\"chapter\">",
+			"…”",
+			"<h2 class=\"chapter\">",
+			"<p>",
+			"",
+			"<p>\\1</p>",
+			"",
+			"</i>”",
+			"“<i>",
+			"<i>\\1</i>",
+			"",
+			"\\n\\n",
+			"### **\\1.**",
+			"**\\1.**",
+			"</i>)",
+			"<p class=\"first\">\\1\\2</p>",
+			"</i>?",
+			"</i>,",
+			" ",
+			"<p>\\1\\2\\3</p>",
+			"</i> ",
+			"<i>\\1</i> ",
+			"</h3>",
+			"<h3 class=\"chapter\">\\1</h3>",
+			"<h2 class=\"chapter\">\\1</h2>",
+			"### **",
+			"<p class=\"first\">\\1</p>",
+			"<h2 class=\"chapter\">\\1</h2>",
+			"\\1—\\n",
+			"l’Armentière",
+			"*\\n",
+			"o’ a",
+			"\\1 \\2",
+			" ",
+			"…",
+			"\\1 ",
+			"\\1 \\2",
+			"\\1 <i>",
+			" ",
+			"\"in0\"",
+			"<i>\\1</i> ",
+			" <i>\\1</i> ",
+			"<i>of</i> ",
+			"…”",
+			"—",
+			"</h2>\\n<p class=\"first\">",
+			"“\\1 \\2”",
+			" \\1",
+			", ",
+			"<p>",
+			"",
+			"<h2 class=\"chapter\">",
+			"<b>\\1</b>",
+			"</b> ",
+			"<i>\\1</i>",
+			"</p>",
+			"><",
+			"</i>",
+			" ",
+			"<p class=\"center\">* * *</p>\\n",
+			"<p class=\"center\">* * *</p>",
+			"<p class=\"first\">",
+			"<p>",
+			"<i>\\1</i>",
+			"",
+			"“\\1 ",
+			"’ ",
+			"o’ ",
+			"“…",
+			", ",
+			"</i> “",
+			"</i>.",
+			" ",
+			"…",
+			", <i>",
+			"</i>",
+			"<i>\\1</i>",
+			"</p>",
+			"<p>\\1</p>",
+			"*\\1*",
+			"*",
+			"",
+			" ",
+			",*",
+			"",
+			"o’",
+			"I’",
+			"e’",
+			"*",
+			"…",
+			")",
+			"("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 104.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sty",
+				"css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Daves/AppData/Roaming/Sublime Text 2/Packages/User/AABG.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true
+}
