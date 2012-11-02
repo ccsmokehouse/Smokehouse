@@ -391,7 +391,16 @@ nav {
 	box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
 }
 	.island.promo a {
-		color: inherit;
+		color: #BF1E2E	;
+		/* color: inherit; */
+		font-weight: bold;
+		text-decoration: none;
+		/* text-decoration: underline; */
+	}
+
+	.island.promo a:hover {
+		color: #BF1E2E	;
+		/* color: inherit; */
 		font-weight: bold;
 		text-decoration: underline;
 	}
@@ -400,11 +409,12 @@ span > a > img {
 	margin: 0;
 }
 span > h2 {
-	margin-bottom: 16px;
-	margin-bottom: 1rem;
+	font-size: 2em;
+	/* margin-top: em; */
+	/* margin-bottom: em; */
 	padding-top: 0;
 }
-h2 > em {
+h2 > em, span > em {
 	color: #BF1E2E	;
 	font-style: normal;
 }
@@ -476,6 +486,12 @@ small > p {
 	line-height: 1.5em;
 }
 
+small > ul > li {
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.5em;
+}
+
 
 /*--- LINKS ---*/
 a {
@@ -491,6 +507,7 @@ a:hover {
 a.coupon {
 	font-size: 1.5em;
 }
+
 
 
 /*--- LISTS ---*/
@@ -573,16 +590,19 @@ blockquote {
 \*------------------------------------*/
 .button {
 	float: right;
-	font-size: 1.5em;
+	font-size: 2.0em;
 	list-style: none;
 	/* margin: 0.375em 0 0 0.625em; */
 	margin: 0 0.625em;
 }
 
 .button a {
-	background: rgba(255,153,0,1);
-	border: 0.1875em solid #D6D7D8;
-	color: rgba(51,51,51,1);
+	/* background: rgba(255,153,0,1); */
+	background: #1C2F59;
+	/* border: 0.1875em solid #D6D7D8; */
+	border: 0.1875em solid #D0455C;
+	/* color: rgba(255,25,255,1); */
+	color: #FFFFFF;
 	display: block;
 	padding: 0.3125em 0.625em;
 	line-height: 1.2em;
@@ -598,10 +618,12 @@ blockquote {
 }
 
 .button a:hover, .button a:active, .button a:focus {
-	background: rgba(51,51,51,0.5);
-	border: 0.1875em solid rgba(255,153,0,1);
-	/*color: rgba(255,153,0,1);*/
-	color: rgba(51,51,51,1);
+	/* background: rgba(51,51,51,0.5); */
+	background: rgba(208,69,92,0.5);
+	/* border: 0.1875em solid rgba(255,153,0,1); */
+	border: 0.1875em solid #1C2F59;
+	/* color: rgba(255,153,0,1); */
+	color: #FFFFFF;
 }
 
 
@@ -613,6 +635,12 @@ img {
 	max-width: 100%;
 	height: auto;
 	width: auto\9; /* ie8 */
+}
+
+.img-center {
+	display: block;
+	text-align: center;
+	margin: 0 auto 1em auto;
 }
 
 img.left	 { float: left;  margin: 0.375em 0.375em 0 0; }
